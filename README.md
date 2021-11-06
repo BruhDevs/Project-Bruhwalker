@@ -8,8 +8,8 @@ Ark_Champs = {
 {Dev = "UnkleArk", Char_Name = " ", FileName = "  ", url = ".........", IsVip = ...},
 }
 
-Dev = dont change pls
-Char_name = exact game.local_player.champ_name
+-Dev = dont change pls
+-Char_name = exact game.local_player.champ_name
 FileName = the name of the .lua
 url = the Url from your github .lua
 IsVip = true or false
