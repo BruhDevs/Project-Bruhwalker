@@ -12,7 +12,7 @@ Ark_Champs = {
 ```
 ```css
 Dev = Developer-Name <--- We need for the Option: Available luas for the currently ingame champion
-Char_name = game.local_player.champ_name
+Char_name = game.local_player.champ_name <--- The current champ_name from the Lua we have added
 FileName = the name from file -->Example.lua<--
 url = the Url from your github/lua file
 IsVip = true or false
