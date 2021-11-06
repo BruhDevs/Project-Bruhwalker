@@ -5,7 +5,7 @@
 # Example add new luas in table:
 
 Ark_Champs = {
-		{Dev = "UnkleArk", Char_Name = " ", FileName = "  ", url = ".........", IsVip = ...},
+{Dev = "UnkleArk", Char_Name = " ", FileName = "  ", url = ".........", IsVip = ...},
 }
 
 Dev = dont change pls
