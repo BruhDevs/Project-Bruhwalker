@@ -5,12 +5,12 @@ do
     local function AutoUpdate()
 		
 		local file_name = "LuaDownloadManager.lua"
-		--local url = "http://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyActivator.lua"        
-        local web_version = http:get("http://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyActivator.version")
+		local url = "https://raw.githubusercontent.com/BruhDevs/Project-Bruhwalker/main/LuaDownloadManager.lua"        
+        local web_version = http:get("https://raw.githubusercontent.com/BruhDevs/Project-Bruhwalker/main/LuaDownloadManager.version")
 		if tonumber(web_version) == Version then
             console:log("Lua-DownloadManager successfully loaded.....")
         else
-			--http:download_file(url, file_name)
+			http:download_file(url, file_name)
 			NewUpdate = true
         end
     
