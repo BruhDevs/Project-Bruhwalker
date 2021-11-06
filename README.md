@@ -1,6 +1,6 @@
 # Project-Bruhwalker
 
-# 1 Never forget change the versions in .lua and .version ;)
+# Never forget change the versions in .lua and .version 
 
 # Example add new luas in table:
 
