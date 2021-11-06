@@ -1,8 +1,8 @@
 # Project-Bruhwalker
 
-.1 Never forget change the versions in .lua and .version ;)
+# 1 Never forget change the versions in .lua and .version ;)
 
-Example add new luas in table:
+# Example add new luas in table:
 
 Ark_Champs = {
 		{Dev = "UnkleArk", Char_Name = " ", FileName = "  ", url = ".........", IsVip = ...},
