@@ -1,6 +1,6 @@
 -- [ AutoUpdate ]
 NewUpdate = false
-Version = 1
+Version = 2
 do  
     local function AutoUpdate()
 		
