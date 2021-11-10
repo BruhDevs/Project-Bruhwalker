@@ -1,6 +1,6 @@
 -- [ AutoUpdate ]
 NewUpdate = false
-Version = 2
+Version = 3
 do  
     local function AutoUpdate()
 		
@@ -60,7 +60,7 @@ Pussy_Champs = {
 	{Dev = "Pussykate", Char_Name = "Draven", FileName = "PussyDraven.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyDraven.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Fiora", FileName = "PussyFiora.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyFiora.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Gangplank", FileName = "PussyGangplank.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyGangplank.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Gnar", FileName = "PussyGnar.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyGnar.lua", IsVip = false}
+	{Dev = "Pussykate", Char_Name = "Gnar", FileName = "PussyGnar.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyGnar.lua", IsVip = false},
 	{Dev = "Pussykate", Char_Name = "Illaoi", FileName = "PussyIllaoi.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyIllaoi.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Irelia", FileName = "PussyIrelia.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyIrelia.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Jinx", FileName = "PussyJinx.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyJinx.lua", IsVip = true},
