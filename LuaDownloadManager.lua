@@ -167,7 +167,8 @@ Ben_Champs = {
 	{Dev = "Ben", Char_Name = "LeBlanc", FileName = "LeBlanc.lua", url = "https://raw.githubusercontent.com/stoneb2/Bruhwalker/main/LeBlanc/LeBlanc.lua", IsVip = false},
 	{Dev = "Ben", Char_Name = "Teemo", FileName = "Teemo.lua", url = "https://raw.githubusercontent.com/stoneb2/Bruhwalker/main/Teemo/Teemo.lua", IsVip = false},
 	{Dev = "Ben", Char_Name = "Qiyana", FileName = "Qiyana.lua", url = "https://raw.githubusercontent.com/stoneb2/Bruhwalker/main/Qiayana/Qiyana.lua", IsVip = false},
-	{Dev = "Ben", Char_Name = "Veigar", FileName = "Veigar.lua", url = "https://raw.githubusercontent.com/stoneb2/Bruhwalker/main/Veigar/Veigar.lua", IsVip = false},	
+	{Dev = "Ben", Char_Name = "Veigar", FileName = "Veigar.lua", url = "https://raw.githubusercontent.com/stoneb2/Bruhwalker/main/Veigar/Veigar.lua", IsVip = false},
+	{Dev = "Ben", Char_Name = "Tahm Kench", FileName = "TahmKench.lua", url = "https://raw.githubusercontent.com/stoneb2/Bruhwalker/main/TahmKench/TahmKench.lua", IsVip = false},
 }
 
 Ben_Utility = {
