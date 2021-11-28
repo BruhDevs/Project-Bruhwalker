@@ -137,12 +137,14 @@ Shauny_Champs = {
 	{Dev = "Shaunyboy", Char_Name = "Xerath", FileName = "XerathToTheXerath.lua", url = "https://raw.githubusercontent.com/TheShaunyboi/BruhWalkerEncrypted/main/XerathToTheXerath.lua", IsVip = true},
 	{Dev = "Shaunyboy", Char_Name = "Yone", FileName = "YoneToTheYone.lua", url = "https://raw.githubusercontent.com/TheShaunyboi/BruhWalkerEncrypted/main/YoneToTheYone.lua", IsVip = true},	
 	{Dev = "Shaunyboy", Char_Name = "Ziggs", FileName = "DaBombZiggs.lua", url = "https://raw.githubusercontent.com/TheShaunyboi/BruhWalkerEncrypted/main/DaBombZiggs.lua", IsVip = true},
+	{Dev = "Shaunyboy", Char_Name = "Vayne", FileName = "ProPlay-Vayne.lua", url = "https://raw.githubusercontent.com/TheShaunyboi/BruhWalkerEncrypted/main/ProPlay-Vayne.lua", IsVip = true},
 }
 
 
 Shauny_Utility = {
 {Char_Name = "QuakeSounds", FileName = "QuakeSoundsByShaunyboi.lua", url = "https://raw.githubusercontent.com/TheShaunyboi/BruhWalkerEncrypted/main/QuakeSoundsByShaunyboi.lua", IsVip = false},
 {Char_Name = "SimpleExhaust", FileName = "ShaunsSimpleExhaust.lua", url = "https://raw.githubusercontent.com/TheShaunyboi/BruhWalkerEncrypted/main/ShaunsSimpleExhaust.lua", IsVip = false},
+{Char_Name = "RandomUtilities", FileName = "Shaunyboi-RandomUtilities.lua", url = "https://raw.githubusercontent.com/TheShaunyboi/BruhWalkerEncrypted/main/Shaunyboi-RandomUtilities.lua", IsVip = false},
 }
 
 Shauny_Lib = {
