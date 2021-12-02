@@ -1,6 +1,6 @@
 -- [ AutoUpdate ]
 NewUpdate = false
-Version = 4
+Version = 5
 do  
     local function AutoUpdate()
 		
@@ -83,6 +83,7 @@ Pussy_Champs = {
 	{Dev = "Pussykate", Char_Name = "Vex", FileName = "PussyVex.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyVex.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "XinZhao", FileName = "PussyXinZhao.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyXinZhao.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Yasuo", FileName = "PussyYasuo.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyYasuo.lua", IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Yuumi", FileName = "PussyYuumiBot.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyYuumiBot.lua", IsVip = false},	
 	{Dev = "Pussykate", Char_Name = "Zed", FileName = "PussyZed.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyZed.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Zoe", FileName = "PussyZoe.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyZoe.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Zyra", FileName = "PussyZyra.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyZyra.lua", IsVip = true},	
@@ -92,6 +93,7 @@ Pussy_Utility = {
 	{Char_Name = "Activator", FileName = "PussyActivator.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyActivator.lua", IsVip = true},
 	{Char_Name = "Gank-Alerter", FileName = "PussyGankAlerter.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyGankAlerter.lua", IsVip = true},
 	{Char_Name = "Dev-Helper-Tool", FileName = "PussyDevHelper.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyDevHelper.lua", IsVip = false},
+	{Char_Name = "YuumiBot", FileName = "PussyYuumiBot.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyYuumiBot.lua", IsVip = false}
 }
 
 Pussy_Lib = {
@@ -271,7 +273,7 @@ San_Lib = {
 --█░░█ █▄▄▀ █▄▄█ █▄█▄█ ▀ ▀ █░░█ █░░█ █░░█ █▄▄█ ░░█░░ █▀▀ ▀ ▀ █░▀░█ ▀▀█ █░▀█ ▀ ▀ █░░ █░░█ █░░█ █▀▀ ▀█▀ █░▀█
 --▀▀▀░ ▀░▀▀ ▀░░▀ ░▀░▀░ ░ ░ ░▀▀▀ █▀▀▀ ▀▀▀░ ▀░░▀ ░░▀░░ ▀▀▀ ░ ░ ▀░░░▀ ▀▀▀ ▀▀▀▀ ░ ░ ▀▀▀ ▀▀▀▀ ▀░░▀ ▀░░ ▀▀▀ ▀▀▀▀
 
-Update_Msg = "PussyGnar released !!!"  --  <------ Add here a Draw-Message if you like for your new added Lua
+Update_Msg = "PussyYuumiBot added"  --  <------ Add here a Draw-Message if you like for your new added Lua
 
 
 --▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
