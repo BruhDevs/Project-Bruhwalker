@@ -234,7 +234,7 @@ Kyle_Champs = {
 }
 
 Kyle_Utility = {
-
+	{Char_Name = "Auto Buyer", FileName = "BanthorsAutoBuyer.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Auto%20Buyer/BanthorsAutoBuyer.lua", IsVip = false},
 }
 
 Kyle_Lib = {
