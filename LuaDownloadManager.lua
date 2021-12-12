@@ -222,11 +222,13 @@ Ark_Lib = {
 Kyle_Champs = {
 	{Dev = "Kyle", Char_Name = "Ashe", FileName = "BanthorsAshe.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Ashe/BanthorsAshe.lua", IsVip = false},
 	{Dev = "Kyle", Char_Name = "Garen", FileName = "BanthorsGaren.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Garen/BanthorsGaren.lua", IsVip = false},
+	{Dev = "Kyle", Char_Name = "Graves", FileName = "BanthorsGraves.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Graves/BanthorsGraves.lua", IsVip = false},
 	{Dev = "Kyle", Char_Name = "Gwen", FileName = "BanthorsGwen.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Gwen/BanthorsGwen.lua", IsVip = false},
 	{Dev = "Kyle", Char_Name = "Jhin", FileName = "BanthorsJhin.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Jhin/BanthorsJhin.lua", IsVip = false},
 	{Dev = "Kyle", Char_Name = "Kassadin", FileName = "BanthorsKassadin.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Kassadin/BanthorsKassadin.lua", IsVip = false},
 	{Dev = "Kyle", Char_Name = "Kayle", FileName = "BanthorsKayle.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Kayle/BanthorsKayle.lua", IsVip = false},
 	{Dev = "Kyle", Char_Name = "Kindred", FileName = "BanthorsKindred.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Kindred/BanthorsKindred.lua", IsVip = false},
+	{Dev = "Kyle", Char_Name = "Lillia", FileName = "BanthorsLillia.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Lillia/BanthorsLillia.lua", IsVip = false},
 	{Dev = "Kyle", Char_Name = "Lux", FileName = "BanthorsLux.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Lux/BanthorsLux.lua", IsVip = false},
 	{Dev = "Kyle", Char_Name = "Yorick", FileName = "BanthorsYorick.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Yorick/BanthorsYorick.lua", IsVip = false},
 }
