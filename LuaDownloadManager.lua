@@ -1,6 +1,6 @@
 -- [ AutoUpdate ]
 NewUpdate = false
-Version = 9
+Version = 10
 do  
     local function AutoUpdate()
 		
@@ -70,6 +70,7 @@ Pussy_Champs = {
 	{Dev = "Pussykate", Char_Name = "Kayn", FileName = "PussyKayn.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyKayn.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Khazix", FileName = "PussyKhazix.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyKhazix.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "KogMaw", FileName = "PussyKogMaw.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyKogMaw.lua", IsVip = true},
+	{Dev = "Pussykate", Char_Name = "MasterYi", FileName = "PussyMasterYi.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyMasterYi.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Mordekaiser", FileName = "PussyMordekaiser.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyMordekaiser.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Morgana", FileName = "PussyMorgana.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyMorgana.lua", IsVip = true},
 	{Dev = "Pussykate", Char_Name = "DrMundo", FileName = "PussyMundo.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyMundo.lua", IsVip = true},
@@ -281,7 +282,7 @@ Zedith_Lib = {
 --█░░█ █▄▄▀ █▄▄█ █▄█▄█ ▀ ▀ █░░█ █░░█ █░░█ █▄▄█ ░░█░░ █▀▀ ▀ ▀ █░▀░█ ▀▀█ █░▀█ ▀ ▀ █░░ █░░█ █░░█ █▀▀ ▀█▀ █░▀█
 --▀▀▀░ ▀░▀▀ ▀░░▀ ░▀░▀░ ░ ░ ░▀▀▀ █▀▀▀ ▀▀▀░ ▀░░▀ ░░▀░░ ▀▀▀ ░ ░ ▀░░░▀ ▀▀▀ ▀▀▀▀ ░ ░ ▀▀▀ ▀▀▀▀ ▀░░▀ ▀░░ ▀▀▀ ▀▀▀▀
 
-Update_Msg = "PussyAhri added"  --  <------ Add here a Draw-Message if you like for your new added Lua
+Update_Msg = "PussyMasterYi added"  --  <------ Add here a Draw-Message if you like for your new added Lua
 
 
 --▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
