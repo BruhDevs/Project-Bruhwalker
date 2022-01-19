@@ -1,6 +1,6 @@
 -- [ AutoUpdate ]
 NewUpdate = false
-Version = 12
+Version = 13
 do  
     local function AutoUpdate()
 		
@@ -69,6 +69,7 @@ Pussy_Champs = {
 	{Dev = "Pussykate", Char_Name = "Illaoi", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Irelia", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Jinx", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Katarina", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Kalista", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Kayn", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
 	{Dev = "Pussykate", Char_Name = "Khazix", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
@@ -292,7 +293,7 @@ Zedith_Lib = {
 --█░░█ █▄▄▀ █▄▄█ █▄█▄█ ▀ ▀ █░░█ █░░█ █░░█ █▄▄█ ░░█░░ █▀▀ ▀ ▀ █░▀░█ ▀▀█ █░▀█ ▀ ▀ █░░ █░░█ █░░█ █▀▀ ▀█▀ █░▀█
 --▀▀▀░ ▀░▀▀ ▀░░▀ ░▀░▀░ ░ ░ ░▀▀▀ █▀▀▀ ▀▀▀░ ▀░░▀ ░░▀░░ ▀▀▀ ░ ░ ▀░░░▀ ▀▀▀ ▀▀▀▀ ░ ░ ▀▀▀ ▀▀▀▀ ▀░░▀ ▀░░ ▀▀▀ ▀▀▀▀
 
-Update_Msg = "PKAio added"  --  <------ Add here a Draw-Message if you like for your new added Lua
+Update_Msg = "PussyKatarina added"  --  <------ Add here a Draw-Message if you like for your new added Lua
 
 
 --▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
