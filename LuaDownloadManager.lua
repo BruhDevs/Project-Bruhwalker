@@ -1,6 +1,6 @@
 -- [ AutoUpdate ]
 NewUpdate = false
-Version = 11
+Version = 12
 do  
     local function AutoUpdate()
 		
@@ -52,47 +52,49 @@ end
 --█░░█ █░░█ ▀▀█ ▀▀█ █▄▄█ █▀▄ █▄▄█ ░░█░░ █▀▀
 --█▀▀▀ ░▀▀▀ ▀▀▀ ▀▀▀ ▄▄▄█ ▀░▀ ▀░░▀ ░░▀░░ ▀▀▀
 
+local PKAio_Url = "https://raw.githubusercontent.com/Astraanator/test/main/PKAIO/PKAio.lua"
+
 Pussy_Champs = {
-	{Dev = "Pussykate", Char_Name = "Ahri", FileName = "PussyAhri.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyAhri.lua", IsVip = true},	
-	{Dev = "Pussykate", Char_Name = "Akali", FileName = "PussyAkali.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyAkali.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Akshan", FileName = "PussyAkshan.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyAkshan.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Brand", FileName = "PussyBrand.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyBrand.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Caitlyn", FileName = "PussyCaitlyn.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyCaitlyn.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Camille", FileName = "PussyCamille.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyCamille.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Diana", FileName = "PussyDiana.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyDiana.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Draven", FileName = "PussyDraven.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyDraven.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Fiora", FileName = "PussyFiora.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyFiora.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Gangplank", FileName = "PussyGangplank.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyGangplank.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Gnar", FileName = "PussyGnar.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyGnar.lua", IsVip = false},
-	{Dev = "Pussykate", Char_Name = "Illaoi", FileName = "PussyIllaoi.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyIllaoi.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Irelia", FileName = "PussyIrelia.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyIrelia.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Jinx", FileName = "PussyJinx.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyJinx.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Kalista", FileName = "PussyKalista.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyKalista.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Kayn", FileName = "PussyKayn.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyKayn.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Khazix", FileName = "PussyKhazix.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyKhazix.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "KogMaw", FileName = "PussyKogMaw.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyKogMaw.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "MasterYi", FileName = "PussyMasterYi.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyMasterYi.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Mordekaiser", FileName = "PussyMordekaiser.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyMordekaiser.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Morgana", FileName = "PussyMorgana.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyMorgana.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "DrMundo", FileName = "PussyMundo.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyMundo.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Rengar", FileName = "PussyRengar.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyRengar.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Riven", FileName = "PussyRiven.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyRiven.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Ryze", FileName = "PussyRyze.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyRyze.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Samira", FileName = "PussySamira.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussySamira.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Senna", FileName = "PussySenna.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussySenna.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Sett", FileName = "PussySett.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussySett.lua", IsVip = true},	
-	{Dev = "Pussykate", Char_Name = "Sylas", FileName = "PussySylas.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussySylas.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Thresh", FileName = "PussyThresh.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyThresh.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Twitch", FileName = "PussyTwitch.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyTwitch.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Vayne", FileName = "PussyVayne.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyVayne.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Vex", FileName = "PussyVex.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyVex.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Viktor", FileName = "PussyViktor.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyViktor.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "XinZhao", FileName = "PussyXinZhao.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyXinZhao.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Yasuo", FileName = "PussyYasuo.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyYasuo.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Yuumi", FileName = "PussyYuumiBot.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyYuumiBot.lua", IsVip = false},	
-	{Dev = "Pussykate", Char_Name = "Zed", FileName = "PussyZed.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyZed.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Zoe", FileName = "PussyZoe.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyZoe.lua", IsVip = true},
-	{Dev = "Pussykate", Char_Name = "Zyra", FileName = "PussyZyra.lua", url = "https://raw.githubusercontent.com/Astraanator/test/main/Champions/PussyZyra.lua", IsVip = true},	
+	{Dev = "Pussykate", Char_Name = "Ahri", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},	
+	{Dev = "Pussykate", Char_Name = "Akali", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Akshan", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Brand", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Caitlyn", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Camille", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Diana", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Draven", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Fiora", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Gangplank",	FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Gnar", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Illaoi", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Irelia", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Jinx", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Kalista", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Kayn", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Khazix", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "KogMaw", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "MasterYi", 	FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Mordekaiser", 	FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Morgana", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "DrMundo", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Rengar", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Riven", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Ryze", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Samira", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Senna", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Sett", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},	
+	{Dev = "Pussykate", Char_Name = "Sylas", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Thresh", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Twitch", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Vayne", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Vex", 			FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Viktor", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "XinZhao", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Yasuo", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Yuumi", 		FileName = "PussyYuumiBot.lua", url = PKAio_Url, IsVip = false},	
+	{Dev = "Pussykate", Char_Name = "Zed", 			FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Zoe", 			FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},
+	{Dev = "Pussykate", Char_Name = "Zyra", 		FileName = "PKAio.lua", 		url = PKAio_Url, IsVip = true},	
 }
 
 Pussy_Utility = {
@@ -225,18 +227,24 @@ Ark_Lib = {
 --█▀▄ █▄▄█ █░░ █▀▀
 --▀░▀ ▄▄▄█ ▀▀▀ ▀▀▀
 
+local BanthorsAio_Url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20AIO/BanthorsAIO.lua"
+
 Kyle_Champs = {
-	{Dev = "Kyle", Char_Name = "Ashe", FileName = "BanthorsAshe.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Ashe/BanthorsAshe.lua", IsVip = false},
-	{Dev = "Kyle", Char_Name = "Garen", FileName = "BanthorsGaren.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Garen/BanthorsGaren.lua", IsVip = false},
-	{Dev = "Kyle", Char_Name = "Graves", FileName = "BanthorsGraves.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Graves/BanthorsGraves.lua", IsVip = false},
-	{Dev = "Kyle", Char_Name = "Gwen", FileName = "BanthorsGwen.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Gwen/BanthorsGwen.lua", IsVip = false},
-	{Dev = "Kyle", Char_Name = "Jhin", FileName = "BanthorsJhin.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Jhin/BanthorsJhin.lua", IsVip = false},
-	{Dev = "Kyle", Char_Name = "Kassadin", FileName = "BanthorsKassadin.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Kassadin/BanthorsKassadin.lua", IsVip = false},
-	{Dev = "Kyle", Char_Name = "Kayle", FileName = "BanthorsKayle.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Kayle/BanthorsKayle.lua", IsVip = false},
-	{Dev = "Kyle", Char_Name = "Kindred", FileName = "BanthorsKindred.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Kindred/BanthorsKindred.lua", IsVip = false},
-	{Dev = "Kyle", Char_Name = "Lillia", FileName = "BanthorsLillia.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Lillia/BanthorsLillia.lua", IsVip = false},
-	{Dev = "Kyle", Char_Name = "Lux", FileName = "BanthorsLux.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Lux/BanthorsLux.lua", IsVip = false},
-	{Dev = "Kyle", Char_Name = "Yorick", FileName = "BanthorsYorick.lua", url = "https://raw.githubusercontent.com/Banthors/Bruhwalker/main/Banthors%20Yorick/BanthorsYorick.lua", IsVip = false},
+	{Dev = "Kyle", Char_Name = "Ashe", 		FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "Chogath", 	FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},	
+	{Dev = "Kyle", Char_Name = "Garen", 	FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "Graves", 	FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "Gwen", 		FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "Jhin", 		FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "Kassadin", 	FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "Kayle", 	FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "Kindred", 	FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "Kled", 		FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},	
+	{Dev = "Kyle", Char_Name = "Lillia", 	FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "Lux", 		FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "Orianna", 	FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
+	{Dev = "Kyle", Char_Name = "RekSai", 	FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},	
+	{Dev = "Kyle", Char_Name = "Yorick", 	FileName = "BanthorsAIO.lua", url = BanthorsAio_Url, IsVip = false},
 }
 
 Kyle_Utility = {
@@ -259,9 +267,10 @@ Kyle_Lib = {
 --▀▀▀ ▀▀▀ ▀▀▀░ ▀▀▀ ░░▀░░ ▀░░▀
 
 Zedith_Champs = {
-	{Dev = "Zedith", Char_Name = "KogMaw", FileName = "ZEDithAIO.lua", url = "https://raw.githubusercontent.com/LordZEDith/BruhWalker/main/ZEDithAIO.lua", IsVip = false},
-	{Dev = "Zedith", Char_Name = "Syndra", FileName = "ZEDithAIO.lua", url = "https://raw.githubusercontent.com/LordZEDith/BruhWalker/main/ZEDithAIO.lua", IsVip = false},
-	{Dev = "Zedith", Char_Name = "Xerath", FileName = "ZEDithAIO.lua", url = "https://raw.githubusercontent.com/LordZEDith/BruhWalker/main/ZEDithAIO.lua", IsVip = false},
+	{Dev = "Zedith", Char_Name = "Caitlyn", FileName = "ZEDithAIO.lua", url = "https://raw.githubusercontent.com/LordZEDith/BruhWalker/main/ZEDithAIO.lua", IsVip = false},	
+	{Dev = "Zedith", Char_Name = "KogMaw", 	FileName = "ZEDithAIO.lua", url = "https://raw.githubusercontent.com/LordZEDith/BruhWalker/main/ZEDithAIO.lua", IsVip = false},
+	{Dev = "Zedith", Char_Name = "Syndra", 	FileName = "ZEDithAIO.lua", url = "https://raw.githubusercontent.com/LordZEDith/BruhWalker/main/ZEDithAIO.lua", IsVip = false},
+	{Dev = "Zedith", Char_Name = "Xerath", 	FileName = "ZEDithAIO.lua", url = "https://raw.githubusercontent.com/LordZEDith/BruhWalker/main/ZEDithAIO.lua", IsVip = false},
 }
 
 Zedith_Utility = {
@@ -283,7 +292,7 @@ Zedith_Lib = {
 --█░░█ █▄▄▀ █▄▄█ █▄█▄█ ▀ ▀ █░░█ █░░█ █░░█ █▄▄█ ░░█░░ █▀▀ ▀ ▀ █░▀░█ ▀▀█ █░▀█ ▀ ▀ █░░ █░░█ █░░█ █▀▀ ▀█▀ █░▀█
 --▀▀▀░ ▀░▀▀ ▀░░▀ ░▀░▀░ ░ ░ ░▀▀▀ █▀▀▀ ▀▀▀░ ▀░░▀ ░░▀░░ ▀▀▀ ░ ░ ▀░░░▀ ▀▀▀ ▀▀▀▀ ░ ░ ▀▀▀ ▀▀▀▀ ▀░░▀ ▀░░ ▀▀▀ ▀▀▀▀
 
-Update_Msg = "PussyDiana added"  --  <------ Add here a Draw-Message if you like for your new added Lua
+Update_Msg = "PKAio added"  --  <------ Add here a Draw-Message if you like for your new added Lua
 
 
 --▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
