@@ -1,19 +1,16 @@
 -- [ AutoUpdate ]
 NewUpdate = false
-Version = 14
+Version = 7
 do  
     local function AutoUpdate()
 		
 		local file_name = "LuaDownloadManager.lua"
 		local url = "https://raw.githubusercontent.com/BruhDevs/Project-Bruhwalker/main/LuaDownloadManager.lua"        
         local web_version = http:get("https://raw.githubusercontent.com/BruhDevs/Project-Bruhwalker/main/LuaDownloadManager.version")
-		if tonumber(web_version) == Version then
-            console:log("Lua-DownloadManager successfully loaded.....")
-        else
+		if tonumber(web_version) ~= Version then
 			http:download_file(url, file_name)
 			NewUpdate = true
-        end
-    
+        end    
     end
 	
     local function Check()
@@ -35,10 +32,7 @@ do
 	Check()
 end
 
-if (not file_manager:directory_exists("PussyFolder") or not file_manager:file_exists("PussyFolder/BruhWalker.png")) then
-	console:log("Please reload via F5.....")
-	return
-end
+if (not file_manager:directory_exists("PussyFolder") or not file_manager:file_exists("PussyFolder/BruhWalker.png")) then return end
 
 
 --▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄ ▄
