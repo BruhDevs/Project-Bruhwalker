@@ -195,16 +195,19 @@ Ben_Lib = {
 --░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░
 --▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀ ▀
 
---█░░█ █▀▀▄ █░█ █░░ █▀▀ ░ ░ █▀▀█ █▀▀█ █░█
---█░░█ █░░█ █▀▄ █░░ █▀▀ ▀ ▀ █▄▄█ █▄▄▀ █▀▄
---░▀▀▀ ▀░░▀ ▀░▀ ▀▀▀ ▀▀▀ ░ ░ ▀░░▀ ▀░▀▀ ▀░▀
+--█░░█ █▀▀▄ █▀▀ █░░ █▀▀ ░ ░ █▀▀█ █▀▀█ █░█
+--█░░█ █░░█ █   █░░ █▀▀ ▀ ▀ █▄▄█ █▄▄▀ █▀▄
+--░▀▀▀ ▀░░▀  ▀▀ ▀▀▀ ▀▀▀ ░ ░ ▀░░▀ ▀░▀▀ ▀░▀
 
 Ark_Champs = {
-		--{Dev = "UnkleArk", Char_Name = "...", FileName = "...", url = "...", IsVip = ...},
+		--{Dev = "UncleArk", Char_Name = "...", FileName = "...", url = "...", IsVip = ...},
 }
 
 Ark_Utility = {
 	{Char_Name = "Orbwalker", FileName = "Orbwalker.lua", url = "https://raw.githubusercontent.com/Ark223/Bruhwalker/main/Orbwalker.lua", IsVip = false},
+	{Char_Name = "BaseUlt", FileName = "BaseUlt.lua", url = "https://raw.githubusercontent.com/Ark223/Bruhwalker/main/BaseUlt.lua", IsVip = false},
+	{Char_Name = "EvadeCore", FileName = "EvadeCore.lua", url = "https://raw.githubusercontent.com/Ark223/EvadeCore/main/EvadeCore.lua", IsVip = false},
+	{Char_Name = "Evade", FileName = "Evade.lua", url = "https://raw.githubusercontent.com/Ark223/Bruhwalker/main/Evade.lua", IsVip = true},
 }
 
 Ark_Lib = {
